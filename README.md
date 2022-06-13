@@ -6,6 +6,6 @@ Join Our Server For More Things Like This! https://discord.gg/RbxXCcjb
 This Script was made for fun, we will not provide any support
 
 
-  ・Educational purpose only and all your consequences caused by you actions is your responsibility
-  ・Selling this Free gen is forbidden
-  ・If you make a copy of this/or fork it, it must be open-source and have credits linking to this repo
+・Educational purpose only and all your consequences caused by you actions is your responsibility
+・Selling this Free gen is forbidden
+・If you make a copy of this/or fork it, it must be open-source and have credits linking to this repo
