@@ -1,14 +1,13 @@
 import requests
 import random
-from colorama import Fore, Back, Style
-from colorama import Fore as fg, Back as bg, Style as st
+from colorama import Fore
 
 from capmonster_python import HCaptchaTask
 
 
 
 
-capmonster_key = "Add Your Capmonster Key Here"
+capmonster_key = ""
 
 url = 'https://replit.com/signup'
 site_key = "a20d9b66-6747-404a-9393-c449c4611661"
@@ -33,11 +32,9 @@ email3 = random.choice(email2)
 email = email3.strip('\n')
 
 
-password = "ufyufd_dYJ7FH!h"
 
 def replitGen():
         try:
-            
                 secemail = ''.join(random.choices('abcdefghijklmnopqrstuvwxyz', k=7)) + "@yahoo.com"
                 password1 = 'ufyufd_dYJ7FH!h'
                 payload = {
@@ -71,14 +68,15 @@ def replitGen():
                 r = requests.post(url,headers=headers,json=payload)
                 logs1 = open('logs.txt','w')
                 logs1.write(f'{r.text}\n')
-                print(Fore.LIGHTGREEN_EX + f'Generated Account | {usernameRandom} | {password}')
+                print(Fore.LIGHTGREEN_EX + f'Generated Account | {usernameRandom} | {password1}')
 
                 w = open('accounts.txt','a+')
-                w.write({usernameRandom} | {secemail} | {password} + str('\n'))
+                w.write(f'{usernameRandom}:{secemail}:{password1}\n')
                 w2 = open('user_pass.txt','a+')
-                w2.write(f'{usernameRandom} | {password}\n')
+                w2.write(f'{usernameRandom}:{password1}\n')
         except Exception as e:
             print(e)
+
 
 
 replitGen()
