@@ -1,5 +1,6 @@
 # Replit-Account-Generator-With-Requests-And-Capmonster
-This Is  A Replit Account Generator By Me And Hazza We Made It For Fun But Didint Finish It It Is Functional But Not Fast You Can Add Stuff If U Want But Give Us Creds Join Our Server For More Things Like This! https://discord.gg/RbxXCcjb 
+This Is A Replit Account Generator By Me And Hazza We Made It For Fun But Didn't Finish It is Functional But Not Fast You Can Add Stuff If you Want But Give Us Credits if you release it!
+Join Our Server For More Things Like This! https://discord.gg/RbxXCcjb 
 
 
 This Script was made for fun, we will not provide any support
